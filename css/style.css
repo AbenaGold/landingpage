@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#headerbg {
+    background-image: url(../img/blueshoe.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 10rem ;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    font-weight: bold;
+
+}
+
+#nav-links{
+    display: flex;
+   justify-content: space-between;
+}
+#ul-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.nav-items{
+    text-decoration: none;
+     color: aliceblue;  
+}
+
+.btn{
+    background-color: transparent;
+    padding: 4px 20px;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(0, 217, 255);
+}
+.about-section{
+    margin: 7rem 10rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.header-text{
+    color: white;
+    font-size: 30px;
+margin-top: 10rem;
+}
+.text-color{
+    color: rgb(0, 225, 255);
+}
+.images{
+    display: flex;
+    width: 60%;
+    gap: 2rem;
+    
+}
+.about-text{
+    width: 50%;
+    font-size: 17px;
+}
+
+.about-text h4{
+    color: rgb(206, 9, 9);
+}
+.about-text h1{
+    font-size: 2rem;
+    color: rgb(13, 210, 224);
+}
+.images img{
+    width: 50%;
+}
+
+.about-btn{
+border: 2px solid rgb(10, 3, 3);
+background-color:rgb(47, 223, 230);
+border-radius: 4rem;
+padding: 1rem 3rem;
+text-decoration: none;
+}
+.about-btn a{
+    text-decoration:none ;
+}
+.about-btn:hover{
+    background-color: yellow;
+}
+.nav-items:hover{
+color: yellow;
+}
+
+.serve-section{
+    margin: 4rem 10rem;
+
+}
+.serve-images{
+    display: flex;
+    gap: 30px}
+
+.serve-images img{
+    width: 300px;
+}
+.serve-text{
+
+    padding-bottom: 2rem;
+    width: 50%;
+    font-size: 20px;
+    padding-top: 5rem;
+}
+
+.serve-text h1{
+    font-size: 2rem;
+    color: rgb(13, 210, 224);
+}
+.serve-text h4{
+    color: rgb(206, 9, 9);
+    font-size: 1rem;
+}
+.image a{
+    text-decoration: none;
+    color: chocolate;
+}
+.serve-btn{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.headerbtn{
+    
+}
